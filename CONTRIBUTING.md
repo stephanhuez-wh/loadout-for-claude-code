@@ -17,7 +17,7 @@ Thanks for your interest in loadout. Read the [architecture](docs/architecture.m
 ## Before opening a pull request
 
 ```bash
-sh -n setup.sh lib/*.sh                         # syntax
+for f in setup.sh lib/*.sh; do sh -n "$f" && dash -n "$f"; done   # POSIX syntax
 claude plugin validate . --strict               # marketplace (warns while it has no plugins)
 claude plugin validate plugins/<name> --strict  # each plugin you touched
 ```

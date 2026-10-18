@@ -11,3 +11,4 @@ All notable changes to loadout are recorded here. The format follows [Keep a Cha
 - Manifest with the user-level separation settings
 - Templates for the user and project `CLAUDE.md`
 - `setup.sh` dispatcher with help and placeholders for each command
+- `AGENTS.md` with the project rules for coding agents, imported by `CLAUDE.md`
