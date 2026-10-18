@@ -1,0 +1,16 @@
+# OS and editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Claude Code local files
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Test and build output
+/tests/tmp/
+*.log
+
+# Private material never belongs here: use a private overlay
+inventory*.md
